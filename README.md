@@ -1,6 +1,6 @@
 Quizo(Online Quiz Portal)
 
-Javascript, HTML and CSS, Python.
+Javascript, HTML and CSS, php.
 
 Features & Details: 
 ◦ Technology Used: HTML, CSS, Javascript, Firebase Database and Authentication.
