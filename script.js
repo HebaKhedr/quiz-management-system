@@ -9,17 +9,17 @@ const time_line = document.querySelector("header .time_line");
 const timeText = document.querySelector(".timer .time_left_txt");
 const timeCount = document.querySelector(".timer .timer_sec");
 
-// عند الضغط على Start Quiz
+
 start_btn.onclick = () => {
   info_box.classList.add("activeInfo"); 
 };
 
-// عند الضغط على Exit
+
 exit_btn.onclick = () => {
   location.replace("./index.php");
 };
 
-// عند الضغط على Continue (بدء الأسئلة)
+
 continue_btn.onclick = () => {
   info_box.classList.remove("activeInfo"); 
   quiz_box.classList.add("activeQuiz"); 
@@ -37,7 +37,7 @@ let counter;
 let counterLine;
 let widthValue = 0;
 
-// الانتقال بين الأسئلة
+
 const next_btn = document.querySelector("footer .next_btn");
 const bottom_ques_counter = document.querySelector("footer .total_que");
 

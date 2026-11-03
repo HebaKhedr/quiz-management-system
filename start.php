@@ -1,6 +1,5 @@
 <?php
 include 'config.php';
-// جلب الأسئلة من MySQL
 $sql = "SELECT * FROM questions";
 $result = mysqli_query($conn, $sql);
 $questions_array = [];
@@ -64,7 +63,6 @@ if (mysqli_num_rows($result) > 0) {
     </div>
 
     <script>
-        // الأسئلة بتتحقن هنا من PHP لـ JS مباشرة
         let questions = <?php echo json_encode($questions_array); ?>;
     </script>
     <script src="script.js"></script> </body>

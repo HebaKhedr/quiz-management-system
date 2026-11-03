@@ -7,12 +7,13 @@
   <link rel="stylesheet" href="login_style.css">
   <title>Home Page</title>
   <link rel="icon" href="Quizzo_logo.png" type="image/x-icon"> 
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
  <div id ="myDiv">
   <div id="logo"><img src="Quizzo_main_logo.png" width="180px"/></div>
   <div class="copyright">
-   Copyright &copy; Quizzo By <a class="portfolio-link" href="#"> Heba </a>
+   Copyright &copy; Quizzo By HNAYA Team
   </div>
   <div class="dots-3"></div>
  </div>
@@ -57,7 +58,6 @@
        <input name="login_password" type="password" placeholder="Password *" required>
       </div>
       <button type="submit" name="login_btn">Submit</button>
-      <p><b class="forget-btn pointer">Forgot password?</b></p>
       <p><span>Don't have an account?</span><b onclick="toggle()" class="pointer">Sign up here</b></p>
      </form>
     </div>
